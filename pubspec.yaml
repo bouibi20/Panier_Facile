@@ -1,5 +1,5 @@
-name: ma_boutique_exercice
-description: "A new Flutter project."
+name: panier_facil
+description: "Application e-commerce moderne développée avec Flutter et GetX."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,10 +31,21 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  
+  # GetX pour la gestion d'état et la navigation
+  get: ^4.6.6
+  
+  # HTTP pour les appels API
+  http: ^1.2.0
+  
+  # CachedNetworkImage pour la mise en cache des images
+  cached_network_image: ^3.3.1
+  
+  # Intl pour le formatage des nombres et dates
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
